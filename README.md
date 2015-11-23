@@ -21,4 +21,9 @@
 ```
 ![Alt Interactive](https://i.sli.mg/8dHp3V.png)
 
+### vlan configurations files
+
+Basically the vlan configuration file is a csv file, an example has been provided. Essentially it is formatted like so:
+> ip,netmask,gateway,vlan_id,vlan_name
+
 > ~x90
