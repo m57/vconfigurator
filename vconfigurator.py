@@ -64,7 +64,6 @@ def c_vlans(c,all):
 	rng.append(num_all_configs)
 	rng.append(num_exit)
 
-
 	ch = -1
 
 	if all == 0:
@@ -118,7 +117,7 @@ def c_vlans(c,all):
 
 		pc(1, "VID '%s' : '%s.%s ip:'%s' netmask:'%s' gateway:'%s' (Comment: '%s')" % (cnf[3], iface, cnf[3], cnf[0], cnf[1], cnf[2], cnf[4].strip()))
 
-	if ch != num_all_configs:
+	if ch != num_all_configs and ch != -1:
 		pc(3, "ifconfig %s.%s\n" % (iface, configs[0][3]) )
 		os.system("ifconfig %s.%s" % (iface, configs[0][3]) )
 	else:
