@@ -1,7 +1,7 @@
 # vConfigurator v 1.0
 
 > 
-> vConfigurator is a simple kutility to auto configure Vlans for when your in a trunking port.
+> vConfigurator is a simple utility to auto configure vlans for when your in a trunking port.
 > I wrote this whilst on a pentest, in a DC, in about an hour, so you get what you pay for ;) 
 > Personally helped me a lot, you don't thave to configure all the vlans separatly and then 
 > change IP etc etc.
