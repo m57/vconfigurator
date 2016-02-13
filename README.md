@@ -14,6 +14,11 @@
 Basically the VLAN configuration file is a csv file, an example has been provided. You can also comment out VLANS using "#". Essentially it is formatted like so:
 > ip,netmask,gateway,vlan_id,vlan_name
 
+## Enable all configurations and automatically ARP scan and create VLAN folders with results inside.
+```bash
+# ./vconfigurator.py -i eth0 -c networks.csv -a --arp
+```
+
 ## Enable all configurations
 ```bash
 # ./vconfigurator.py -i eth0 -c -a
