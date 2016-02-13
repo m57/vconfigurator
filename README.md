@@ -11,7 +11,7 @@
 
 ### VLAN config file
 
-Basically the VLAN configuration file is a csv file, an example has been provided. Essentially it is formatted like so:
+Basically the VLAN configuration file is a csv file, an example has been provided. You can also comment out VLANS using "#". Essentially it is formatted like so:
 > ip,netmask,gateway,vlan_id,vlan_name
 
 ## Enable all configurations
